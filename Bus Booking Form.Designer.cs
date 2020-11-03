@@ -251,7 +251,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Bus Booking Form";
-            this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

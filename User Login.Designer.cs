@@ -60,7 +60,7 @@
             this.button7.TabIndex = 11;
             this.button7.Text = "Login";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // textBox2
             // 
@@ -116,7 +116,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "Login";
             this.Text = "User Login";
-            this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using MySql.Data.MySqlClient;
+
 namespace Draft_Design
 {
     public partial class Form3 : Form
@@ -18,11 +20,6 @@ namespace Draft_Design
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
         {
 
         }

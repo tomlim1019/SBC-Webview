@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using MySql.Data.MySqlClient;
+
 namespace Draft_Design
 {
     public partial class Form4 : Form
@@ -18,11 +19,6 @@ namespace Draft_Design
         public Form4()
         {
             InitializeComponent();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -47,6 +43,11 @@ namespace Draft_Design
             bookButtonColumn.Text = "book";
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 obj = new Form3();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

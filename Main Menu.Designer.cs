@@ -39,58 +39,64 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 76);
+            this.button1.Location = new System.Drawing.Point(9, 62);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 120);
+            this.button1.Size = new System.Drawing.Size(86, 98);
             this.button1.TabIndex = 0;
             this.button1.Text = "Available Shuttle Bus";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(159, 76);
+            this.button2.Location = new System.Drawing.Point(119, 62);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 120);
+            this.button2.Size = new System.Drawing.Size(86, 98);
             this.button2.TabIndex = 4;
             this.button2.Text = "Booking Details";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(306, 76);
+            this.button4.Location = new System.Drawing.Point(230, 62);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 120);
+            this.button4.Size = new System.Drawing.Size(86, 98);
             this.button4.TabIndex = 5;
             this.button4.Text = "External Bus Provider Registration";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(12, 240);
+            this.button5.Location = new System.Drawing.Point(9, 195);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(115, 120);
+            this.button5.Size = new System.Drawing.Size(86, 98);
             this.button5.TabIndex = 6;
             this.button5.Text = "List of Buses";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(159, 240);
+            this.button3.Location = new System.Drawing.Point(119, 195);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 120);
+            this.button3.Size = new System.Drawing.Size(86, 98);
             this.button3.TabIndex = 7;
             this.button3.Text = "Button 5";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(306, 240);
+            this.button6.Location = new System.Drawing.Point(230, 195);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(115, 120);
+            this.button6.Size = new System.Drawing.Size(86, 98);
             this.button6.TabIndex = 8;
             this.button6.Text = "Button 6";
             this.button6.UseVisualStyleBackColor = true;
@@ -98,17 +104,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 27);
+            this.label1.Location = new System.Drawing.Point(9, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 17);
+            this.label1.Size = new System.Drawing.Size(118, 13);
             this.label1.TabIndex = 9;
             this.label1.Text = "Bus System Main Menu";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 450);
+            this.ClientSize = new System.Drawing.Size(325, 366);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button3);
@@ -116,9 +123,9 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Bus System Main Menu";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
