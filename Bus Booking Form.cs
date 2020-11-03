@@ -21,5 +21,10 @@ namespace Draft_Design
         {
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
